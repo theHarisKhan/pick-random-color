@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
+    background-color: #ebebeb;
 }
 .nav-center{
     width: 80%;
@@ -27,8 +27,8 @@ body{
     width: 50%;
     margin: 120px auto;
     text-align: center;
-    background-color: black;
-    padding: 32px 16px;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 44px 16px 22px;
     border-radius: 10px;
     color: white;
 }
@@ -39,9 +39,14 @@ body{
     color: #ffffffc7;
 }
 .btn{
-    margin-top: 25px;
-    padding: 7px 12px;
+    margin-top: 45px;
+    margin-right: 13px;
+    padding: 10px 15px;
     font-size: 20px;
     font-weight: 600;
+    border-radius: 10px;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: #c8caca;
 }
